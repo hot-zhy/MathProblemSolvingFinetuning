@@ -54,22 +54,34 @@ After the above methods, we finally submitted the answer file in:
 
 1. Pull the code repository
 
-2. Go to `/chatglm3-6b-base-model` and pull the `ChatGLM-6b-base `model from ModelScope or Huggingface
+2. Go to `/chatglm3-6b-base-model/chatglm3-6b-base` and pull the `ChatGLM-6b-base`model from ModelScope or Huggingface
 
-3. Execute the following code file to reason with `ChatGLM-6b-base `and our prompt (remember to modify the relevant input and output files)
+3. Execute the following code file to reason with `ChatGLM-6b-base `and our prompt (remember to modify the relevant input and output paths)
 
    ```
-   /code/main.py
+   ./scripts/main.sh
    ```
 4. Run the code of voting for different models:
    
    ```
    /code/vote/vote.py
    ```
-   If you want to fine_tune the chatGlm model again, you can use the data in `dataset\finetune\`, you can run the following bash scipt to finetune the model.
+   Or if you want to fine_tune the chatGlm model again, you need to fork [ChatGLM3 (github.com)](https://github.com/THUDM/ChatGLM3) first:
+
+
+   ```
+   cd chatglm3-6b-base-model
+   git clone https://github.com/THUDM/ChatGLM3.git
+   ```
+
+   Then you can use the data in `dataset\finetune\`, run the following bash scipt to finetune the model. (Remember to modify the max steps and the relavant input and output paths)
+
+   ```
+   ./scripts/finetune_lora.sh
+   ```
    
 
-4. If you want to use the Program-Aided Program approach to solving, just execute the following code file (remember to modify the relevant input and output files).
+4. If you want to use the Program-Aided Program approach to solving, just execute the following code file (remember to modify the relevant input and output paths).
 
    ```
    /code/PAL/PAL/scripts/pal_chatglm.py
