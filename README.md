@@ -1,4 +1,4 @@
-# GPT-4 automatically solves math problems——Track 2
+# ChatGLM3 automatically solves math problems——Track 2——Fine-Tuning
 
 This repo provides the code, prompts, and our answers solved for the [AAAI2024 Global Competition on Math Problem Solving and Reasoning](https://ai4ed.cc/competitions/aaai2024competition)
 
