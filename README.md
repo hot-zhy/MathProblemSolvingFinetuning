@@ -40,7 +40,7 @@ This README document is organized in the following order.
 
    We first divided the dataset into the following 14 classes using the `KMeans` algorithm, and then we solved for 5, 6, 7, 8, 9, 10, 12, and 13 of them that were suitable to be solved by the code with answer substitutions on the answer of `43.19`
 
-4. 经过上述步骤，我们得到的最终结果为：`{"TAL_SAQ6K_EN_Public_Acc": 45.28, "TAL_SAQ6K_EN_Private_Acc": 46.52}`
+4. After the above steps, we get the final result: `{"TAL_SAQ6K_EN_Public_Acc": 45.28, "TAL_SAQ6K_EN_Private_Acc": 46.52}`
 
 ## Final Submission
 
@@ -66,7 +66,7 @@ After the above methods, we finally submitted the answer file in:
    ```
    /code/vote/vote.py
    ```
-   Or if you want to fine_tune the chatGlm model again, you need to fork [ChatGLM3 (github.com)](https://github.com/THUDM/ChatGLM3) first:
+   Or if you want to finetune the chatGlm model again, you need to fork [ChatGLM3 (github.com)](https://github.com/THUDM/ChatGLM3) first:
 
 
    ```
@@ -74,7 +74,7 @@ After the above methods, we finally submitted the answer file in:
    git clone https://github.com/THUDM/ChatGLM3.git
    ```
 
-   Then you can use the data in `dataset\finetune\`, run the following bash scipt to finetune the model. (Remember to modify the max steps and the relavant input and output paths)
+   Then you can use the data in `dataset\finetune\`, run the following bash script to finetune the model. (Remember to modify the max steps and the relavant input and output paths)
 
    ```
    ./scripts/finetune_lora.sh
