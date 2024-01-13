@@ -61,11 +61,13 @@ After the above methods, we finally submitted the answer file in:
    ```
    /code/main.py
    ```
-4. Run the code for voting for different models:
+4. Run the code of voting for different models:
    
    ```
    /code/vote/vote.py
    ```
+   If you want to fine_tune the chatGlm model again, you can use the data in `dataset\finetune\`, you can run the following bash scipt to finetune the model.
+   
 
 4. If you want to use the Program-Aided Program approach to solving, just execute the following code file (remember to modify the relevant input and output files).
 
