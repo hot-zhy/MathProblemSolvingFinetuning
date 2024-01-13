@@ -29,7 +29,8 @@ This README document is organized in the following order.
 
    The `2w goat` is the 2w tract in the GOAT dataset:[liutiedong/goat: a Fine-tuned LLaMA that is Good at Arithmetic Tasks (github.com)](https://github.com/liutiedong/goat)
 
-   ![image-20240113123950956](C:\Users\zhy19\AppData\Roaming\Typora\typora-user-images\image-20240113123950956.png)
+  ![image-20240113123950956](https://github.com/hot-zhy/MathProblemSolvingFinetuning/assets/100272100/0fbaea4b-b5c7-4196-a6d3-c474296b48e8)
+
 
    Based on the results of the fine-tuned reasoning in the table, we vote on the answer corresponding to the data in the table and the answer corresponding to `41.96` obtained in the first step above, i.e., for the same question solved multiple times, the answer with the `most number `of times of occurrence of the answer is chosen as the final answer chosen.
 
