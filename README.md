@@ -61,6 +61,11 @@ After the above methods, we finally submitted the answer file in:
    ```
    /code/main.py
    ```
+4. Run the code for voting for different models:
+   
+   ```
+   /code/vote/vote.py
+   ```
 
 4. If you want to use the Program-Aided Program approach to solving, just execute the following code file (remember to modify the relevant input and output files).
 
